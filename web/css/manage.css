@@ -1,0 +1,18 @@
+	#operation{
+	width: 400px;
+	height: 320px;
+	margin: 40px 400px;
+	border: 1px solid red;
+	background: white;
+   }
+
+	.list{
+		font-size: 16px;
+		background: #fff0ac; 
+		height: 30px;
+		line-height: 30px;
+		margin-bottom: 5px;
+	    text-align: center;
+	    border-radius: 10px;
+	    position: relative;
+	}

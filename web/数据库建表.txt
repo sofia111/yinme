@@ -1,0 +1,69 @@
+用户表
+create table t_user(
+userID int(4) auto_increment primary key,
+Username varchar(12) not null,
+Password varchar(16) not null,
+Sex varchar(2),
+PhoneNum char(11), 
+regtime datetime not null,
+Role char(1) default '1');
+
+
+insert into t_user(userID,Username,Password,regtime,Role)
+       values('','sofia','111111',now(),'0');
+
+
+新闻类别表
+create table t_category(
+catID int(4) auto_increment primary key not null,
+catname char(30) not null,
+cattime datetime not null
+)charset=utf8;
+
+
+新闻表
+create table t_news(
+newsID int(4) auto_increment primary key not null,
+catID int(4) not null,
+title char(50) not null,
+content text not null,
+newstime date not null,
+operator int(4) not null
+)charset=utf8;
+
+
+友情链接表
+create table t_friend(
+friendID int(4) not null auto_increment primary key,
+webname char(30) not null,
+website char(30) not null,
+friendtime datetime not null
+)charset=utf8;
+
+系统公告添加
+create table t_notice(
+noticeID int(4) not null auto_increment primary key,
+noticetitle char(50) not null,
+content text not null,
+noticetime date not null
+)charset=utf8;
+
+评论表
+create table t_comment(
+commID int(4) not null auto_increment primary key,
+userID int(4) not null,
+newsID int(4) not null,
+commtime date not null,
+content char(200) not null
+)
+
+
+
+
+
+
+
+
+
+
+

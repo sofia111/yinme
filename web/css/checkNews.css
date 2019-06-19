@@ -1,0 +1,44 @@
+#checkNews{
+	margin: 20px auto;
+	width: 600px;
+	background: #eee;
+}
+
+.search_text{
+	height: 30px;
+    width: 300px;
+    font-size: 16px;
+    line-height: 30px;
+    margin: 20px 0 20px 120px;
+
+}
+.search_btn{
+    width: 60px;
+    height: 31px;
+    font-size: 16px;
+    line-height: 31px;
+}
+
+#checkNews li{
+	width: 600px;
+    padding-top: 5px;
+    padding-left: 10px;
+    font-size: 16px;
+    height: 50px;
+    line-height: 30px;
+}
+#newsLink{
+width: 400px;
+display: inline-block;
+overflow: hidden;
+text-overflow: ellipsis;
+white-space: nowrap;
+color: black;
+}
+#newsLink:hover{
+	color: #ff8040;
+}
+.deleteLink{
+	color: #bb3d00;
+	margin-left: 10px;
+}

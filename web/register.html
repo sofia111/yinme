@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>表单验证</title>
+</head>
+<link rel="stylesheet" type="text/css" href="css/register.css">
+ <script type="text/javascript" src="js/register.js"></script>
+<body>
+	<div id="title">用户注册</div>
+	<div id="content">
+		<h3>基本信息</h3>
+		<hr width="%95" color="f2f2f2">
+		<form  action="registerOk.php" onsubmit="return checkForm();" method="post">
+			<div class="form_itemGroup">
+				<label for="userName">用户名</label>
+				<input type="text" id="userName" name="userName" onBlur="checkUserName()">
+				<span class="default" id="nameErr">*&nbsp请输入3-6位非空字符的用户名</span>
+			</div>
+			<div class="form_itemGroup">
+				<label for="phoneNum">手机号</label>
+				<input type="text" id="phoneNum" name="phoneNum" 
+				onBlur="checkPhoneNum()">
+				<span class="default" id="phoneNumErr">*&nbsp请输入正确的手机号</span>
+			</div>
+			<div class="form_radio">
+				<label>性别</label>
+				<input type="radio" name="sex" id="male" value="男" >男
+				<input type="radio" name="sex" id="famel" value="女" >女
+			</div>
+			<div class="form_itemGroup">
+				<label for="userPassword" >密码</label>
+				<input type="password" id="userPassword" name="userPassword" onBlur="checkPassword()">
+				<span class="default" id="passwordErr">*&nbsp请输入6到8位的数字或字母</span>
+			</div>
+			
+			<div class="form_itemGroup">
+				<label for="confirmPassword">确认密码</label>
+				<input type="password" id="confirmPassword" onBlur="checkConfirmPassword()">
+				<span class="default" id="conpasswordErr">*&nbsp请再次输入密码</span>
+			</div>
+			<div id="btn">
+				<button type="submit" class="subBtn">提交</button>
+				<button type="reset" class="subBtn">重置</button>
+			</div>
+			</div>
+		</form>
+	</div>        
+</body>
+</html>

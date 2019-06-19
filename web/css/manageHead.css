@@ -1,0 +1,80 @@
+body{
+	/*width: 800px;*/
+	margin: 0 auto;
+}
+#head{
+	height: 90px;
+	padding-top: 10px;
+	background: white;
+}
+#head h2{
+	background: -webkit-linear-gradient(top,#a3d1d1 50%,#5cadad 50%);
+    text-align: center;
+    font-size: 32px;
+    font-style: italic;
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+}
+
+.head_right{
+	width: 240px;
+	float: right;	
+	height: 30px;
+}
+.head_right li{
+	font-size: 16px;
+	width: 70px;
+	line-height: 30px;
+	float: left;
+	color: #a23400;
+}
+.head_right li button{
+	background: white;
+	color: #a23400;
+}
+.head_left{
+	margin-left: 20px;
+	width: 244px;
+    height: 30px;
+    float: left;
+}
+.head_left li{
+	width: 120px;
+	font-size: 16px;
+	line-height: 30px;
+	float: left;
+	color: #a23400;
+}
+.list_head{
+	height: 40px;
+	font-size: 18px;
+	line-height: 40px;
+	text-align: center;
+	color:  #a23400;
+}
+#operation{
+	width: 400px;
+	height: 320px;
+	margin: 40px 400px;
+	border: 1px solid red;
+	background: white;
+}
+
+.list{
+	font-size: 16px;
+	background: #fff0ac; 
+	height: 30px;
+	line-height: 30px;
+	margin-bottom: 5px;
+    text-align: center;
+    border-radius: 10px;
+   /* color: #ff8040;*/
+    position: relative;
+}
+.list_head{
+	height: 40px;
+	font-size: 18px;
+	line-height: 40px;
+	text-align: center;
+	color: #a23400;
+	}

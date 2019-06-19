@@ -1,0 +1,36 @@
+#addCategory{
+	margin: 30px 400px;
+    width: 370px;
+    background: white;
+    padding: 10px;
+    background: #eee;
+}
+p{
+	color: #a23400;
+   font-size: 20px; 
+}
+span{
+	font-size: 16px;
+	color: #a23400;
+	
+}
+#text{
+	height: 20px;
+	margin: 20px 0px;
+	width: 200px;
+
+}
+#id{
+	width: 50px;
+    font-weight: bolder;
+    text-align: center;
+}
+#cate{
+	
+	text-align: center;
+	font-weight: bolder;
+}
+ tr{
+ 	height: 30px; 
+ 	font-size: 13px;
+ 	}

@@ -1,0 +1,56 @@
+
+body{
+	width: 800px;
+	font-family: '黑体';
+	margin: 30px auto;
+}
+#title{
+	height: 50px;
+	font-size: 18px;
+	line-height: 50px;
+	border: 1px solid #ccc;
+	text-align: center;
+	background: #fff9f3;
+}
+#content{
+	border: 1px solid #ccc;
+	background: #fff9f3;
+	margin-top: 20px;
+}
+.form_itemGroup{
+	padding: 10px;
+}
+.form_itemGroup label{
+	display: inline-block;
+	width: 200px;
+	height: 30px;
+	line-height: 32px;
+	color:#666;
+	text-align: right; 
+
+}
+.form_radio{
+	margin: 15px 180px;
+	color: #666;
+}
+.form_itemGroup input{
+	width: 200px;
+	height: 40px;
+	line-height: 40px;
+	border: 1px solid #ccc;
+}
+.form_itemGroup .default{
+	color: #999;
+
+}
+.form_itemGroup .error{
+	height: 32px;
+	line-height: 32px;
+	color: red;
+}
+#btn{
+	margin:20px 260px;
+}
+.subBtn{
+	margin-left: 10px;
+}

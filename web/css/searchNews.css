@@ -1,0 +1,92 @@
+body{
+	background: #eee;
+}
+#body{
+	width: 800px;
+	margin: 20px auto;
+
+}
+#news{
+	background: white;
+}
+#head{
+
+	margin: 20px auto;
+	height: 60px;
+	line-height: 60px;
+	background: white;
+}
+#head_left{
+	width: 200px;
+	
+}
+#head li{
+    font-size: 16px;
+	float: left;
+	color: #a23400;
+}
+#head_right{
+	float: right;
+	width: 150px;
+}
+#head_right input{
+	background: white;
+	color: blue;
+}
+#head li a{
+	margin-right: 40px;
+}
+#news{
+	margin-bottom: 20px;
+}
+#news h1{
+	text-align: center;
+}
+#news h3{
+	height: 20px;
+	width: 100px;
+	float: right;
+	display: block;
+	margin: 10px;
+}
+.clr{
+    clear: both;
+}
+#content{
+	font-size: 16px;
+	text-indent: 2em;
+	margin: 20px;
+}
+#comment{
+	margin: 20px 0 20px 0;
+	background: white;
+}
+#comment textarea{
+	border: blue;
+}
+#comment input{
+   float: right;
+   margin:10px; 
+
+}
+#commentArea{
+	background: white;
+}
+h2{
+	font-size: 18px;
+	color: #a6a6d2;
+	margin: 20px;
+}
+#userID{
+	font-size: 16px;
+	color: #ff8040;
+} 
+#userID span{
+	font-size: 14px;
+	margin-left: 30px;
+}
+#content{
+	margin-left: 30px;
+	text-indent: 2em;
+	margin: 20px;
+}
